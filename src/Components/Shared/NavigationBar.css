@@ -1,0 +1,42 @@
+.navigation-bar{
+  height: 10vh;
+ background-color:rgb(65, 58, 131);
+}
+.nav-item ul{
+    display:flex;
+  
+  
+    
+}
+.Header-Container{
+    width: 100%;
+    overflow: hidden;
+}
+.nav-item li{
+    margin-right:auto;
+    margin-top: 10px;
+    text-align:center;
+    list-style:none;
+    padding: 5px;
+    align-items:center;
+    
+ 
+}
+
+.nav-item li:hover{
+  border-bottom:1px solid rgb(182, 51, 84);
+  border-top:1px solid rgb(24, 185, 33);
+
+
+  
+
+}
+.nav-item li:first-child{
+    margin-left: 10px;
+    
+}
+.nav-item a {
+    text-decoration:none;
+    padding: 10px;
+    color: white;
+}

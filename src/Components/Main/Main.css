@@ -1,0 +1,32 @@
+.Main-Container {
+    height: 100%;
+    width:100%;
+    /* background-color: #92A8D1; */
+    background-image:url(../../Image/hero123.jpg);
+    background-repeat:repeat-x;
+
+   
+
+}
+.Main-img{
+    margin-right: 20px;
+    padding-right:20px;
+    margin-bottom: auto;
+  
+}.change_content:after{
+    content: '';
+    animation: b 5s linear infinite;
+    
+    color:black;
+    border:1px solid rgb(207, 139, 49);
+    background-color:rgb(184, 206, 209)
+}
+@keyframes b{
+
+    0%{content: "Engineer";}
+    20%{content: "Developer";}
+    40%{content: "Designer";}
+    80%{content: "Freelancer";}
+    100%{content: "Photographer";}
+  
+}
