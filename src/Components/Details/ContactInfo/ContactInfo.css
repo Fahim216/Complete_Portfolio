@@ -1,0 +1,32 @@
+.social-links{
+    font-size:22px;
+    display: inline-block;
+     color: #fff;
+    line-height: 1;
+    padding:8px 0;
+    margin-right: 4px;
+    text-align: center;
+    margin-top: 5px;
+    transition:0.3;
+    justify-content:center;
+
+}
+.social-links a:hover{
+   
+   
+    text-decoration: none;
+   border-bottom: 1px solid red;
+    
+ 
+}
+.Contact{
+    line-height:2;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+   
+    border-bottom: 1px solid red;
+}
+.Contact-background{
+    background-color:rgb(222, 238, 233);
+}
