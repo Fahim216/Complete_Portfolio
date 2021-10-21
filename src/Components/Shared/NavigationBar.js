@@ -16,7 +16,7 @@ const NavigationBar = () => {
                             <a href="">Portfolio</a>
                         </li>
                         <li>
-                            <a href="">About</a>
+                            <a href="#about">About</a>
                         </li>
                         <li>
                             <a href="">More</a>

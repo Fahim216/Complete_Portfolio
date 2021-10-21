@@ -1,13 +1,14 @@
 import React from 'react';
+import '../About/AboutCardInfo.css';
 
 const AboutCardInfo = ({worker}) => {
     return (
-        <div className="col-md-4 text-black service-info  ">
-        <div className="mt-4 shadow-lg p-5 mb-5 bg-white rounded">
+        <div className="col-md-4 text-black">
+        <div className=" shadow-lg p-5 mb-5 rounded Card">
            
-           <div>
+           <div className="Education-card ">
            
-           <h2 className='mt-2 mb-3'>{worker.name}</h2>
+           <h2 className=' mb-3 pt-4 text-yellow'>{worker.name}</h2>
             <p><b>{worker.degree}</b></p>
             <p><b>{worker.subject}</b></p>
             <p><b>{worker.year}</b></p>

@@ -1,0 +1,17 @@
+.Education-card{
+    height: 300px;
+    background-color:greenyellow;
+    
+
+   
+}
+.Education-card:hover{
+    
+    background-color: aqua;
+}
+.Card{
+    background-color:#dccfdf;
+}
+.Card:hover {
+  background-color:mediumslateblue;
+}
