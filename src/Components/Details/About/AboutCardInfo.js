@@ -3,7 +3,7 @@ import '../About/AboutCardInfo.css';
 
 const AboutCardInfo = ({worker}) => {
     return (
-        <div className="col-md-4 text-black">
+        <div className="col-md-4 text-black section">
         <div className=" shadow-lg p-5 mb-5 rounded Card">
            
            <div className="Education-card ">

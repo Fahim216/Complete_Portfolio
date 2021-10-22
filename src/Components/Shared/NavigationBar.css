@@ -4,6 +4,7 @@
 }
 .nav-item ul{
     display:flex;
+    margin-right: 55px;
   
   
     
@@ -15,7 +16,7 @@
 .nav-item li{
     margin-right:auto;
     margin-top: 10px;
-    text-align:center;
+  
     list-style:none;
     padding: 5px;
     align-items:center;
@@ -31,10 +32,10 @@
   
 
 }
-.nav-item li:first-child{
+/* .nav-item li:first-child{
     margin-left: 10px;
     
-}
+} */
 .nav-item a {
     text-decoration:none;
     padding: 10px;

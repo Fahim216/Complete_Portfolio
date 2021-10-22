@@ -1,17 +1,36 @@
 .Education-card{
     height: 300px;
+    width: 290px;
+    padding-bottom: 30px;
+    transition: height 5s;
+    transition: width 5s;
+
     background-color:greenyellow;
+   
     
 
    
 }
 .Education-card:hover{
+    height: 310px;
+    width: 300px;
     
     background-color: aqua;
 }
 .Card{
     background-color:#dccfdf;
+    height: 300px;
+    transition: height 5s;
+    
 }
 .Card:hover {
   background-color:mediumslateblue;
+  height:390px;
+}
+.section{
+    height:400px;
+   
+}
+.section:hover{
+
 }
