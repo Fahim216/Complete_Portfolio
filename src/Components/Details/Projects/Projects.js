@@ -6,7 +6,7 @@ import Ecommerce from '../../../Image/E-commerce site.png';
 import League from '../../../Image/League.png';
 const Projects = () => {
     return (
-       <section className='project-section row'>
+       <section id="Project" className='project-section row'>
           
           <div className='text-center mt-5'> <h1>Works</h1>
            <p>Latests project</p></div>

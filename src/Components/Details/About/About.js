@@ -29,8 +29,8 @@ const worker=[
 
 const About = () => {
     return (
-        <section id="about" className='row mt-5 ms-3 me-3 text-center  '>
-        <h1 className='mt-2 mb-5 top '>Education Background</h1>
+        <section id="Education" className='row text-center EducationSection  '>
+        <h1 className='mt-5 mb-5 top text-black'>Education Background</h1>
       
              {
                  worker.map(worker =><AboutCardInfo worker={worker}></AboutCardInfo>)

@@ -3,10 +3,10 @@ import '../About/AboutCardInfo.css';
 
 const AboutCardInfo = ({worker}) => {
     return (
-        <div className="col-md-4 text-black section">
-        <div className=" shadow-lg p-5 mb-5 rounded Card">
+        <div className="col-md-4  text-black ">
+        <div className=" shadow-lg p-5 mb-5 rounded Card ms-4 me-4">
            
-           <div className="Education-card ">
+           <div className="Education-card  ">
            
            <h2 className=' mb-3 pt-4 text-yellow'>{worker.name}</h2>
             <p><b>{worker.degree}</b></p>

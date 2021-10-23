@@ -1,8 +1,8 @@
 .Main-Container {
     height: 100%;
     width:100%;
-    background-color: #92A8D1;
-    /* background-image:url(../../Image/hero123.jpg); */
+    background-color:  rgb(10, 29, 92);
+    /* background-image:url(../../Image/my-bg.png); */
     background-repeat:repeat-x;
 
    
@@ -17,16 +17,16 @@
     content: '';
     animation: b 5s linear infinite;
     
-    color:black;
-    border:1px solid rgb(207, 139, 49);
-    background-color:rgb(184, 206, 209)
+    color:rgb(233, 97, 97);
+    border-bottom:1px solid rgb(150, 25, 46);
+  
 }
 @keyframes b{
 
-    0%{content: "Engineer";}
-    20%{content: "Developer";}
-    40%{content: "Designer";}
-    80%{content: "Freelancer";}
+    0%{content: "Developer";}
+    20%{content: "Designer";}
+    40%{content: "Coder";}
+    80%{content: "Engineer";}
     100%{content: "Photographer";}
   
 }

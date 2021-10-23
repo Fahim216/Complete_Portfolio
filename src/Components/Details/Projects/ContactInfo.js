@@ -6,7 +6,7 @@ import { faHome,faPhone,faEnvelopeSquare } from '@fortawesome/free-solid-svg-ico
 
 const ContactInfo = () => {
     return (
-        <section className="Contact-background">
+        <section id="Contact" className="Contact-background">
             <div className="row">
                 <div className="col-md-12 ">
                   <div className="text-center">
@@ -16,7 +16,7 @@ const ContactInfo = () => {
                     <p><FontAwesomeIcon icon={faPhone}/> 01887884257</p>
                     <p><FontAwesomeIcon icon={faEnvelopeSquare} /> Fahimahmed4639@gmail.com</p>
                   </div>
-                  <div className='social-links d-flex flex-columnm ms-3  text-center'>
+                  <div id="link" className='social-links d-flex flex-columnm ms-3  text-center'>
                     <a href="#" className="twitter p-2"><FontAwesomeIcon icon={faTwitter} /></a>
                     <a href="https://www.facebook.com/fahim.ahmed.5621149/" className="twitter p-2"><FontAwesomeIcon icon={faFacebook} /></a>
                     <a href="#" className="twitter p-2"><FontAwesomeIcon icon={faInstagram} /></a>
